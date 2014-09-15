@@ -13,8 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        dialog.cpp
+        dialog.cpp \
+    datastr.cpp \
+    funs.cpp \
+    ZtTable/ZtTable.cpp
 
-HEADERS  += dialog.h
+HEADERS  += dialog.h \
+    datastr.h \
+    funs.h \
+    publics.h \
+    ZtTable/ZtTable.h
 
 FORMS    += dialog.ui
